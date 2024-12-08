@@ -21,5 +21,96 @@
   }
 }
 
+.nav-bar-container {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.component-wrapper * {
+  display: flex;
+  align-items: center;
+}
 
 
+.nav-mobile-menu-wrapper {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-top: 1px solid rgb(229, 227, 218);
+  transition: 0.1s;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.logo-name-wrapper {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  svg {
+    fill: none;
+    height: 18px;
+    width: auto;
+  }
+
+  path {
+    fill: black;
+  }
+}
+
+.nav-button-wrapper {
+  display: block;
+  appearance: none;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 10px;
+  pointer-events: all;
+
+  svg {
+    display: block;
+    pointer-events: none;
+    width: 20px;
+    height: auto;
+  }
+}
+
+.desktop-menu-wrapper {
+  justify-content: flex-end;
+
+  a {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
+
+.mobile-menu-wrapper {
+  display: block;
+  padding: 10px;
+
+  a {
+    display: block;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+}
