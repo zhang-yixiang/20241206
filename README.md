@@ -2,7 +2,7 @@
 
 1. Clone the repo 
 ```bash
-$ git clone https://github.com/zhang-yixiang/20241206
+$ git clone https://github.com/zhang-yixiang/20241206.git
 ```
 2. Change to the repo dir
 ```bash
