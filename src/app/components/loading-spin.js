@@ -14,7 +14,7 @@ const SpinWrapper = styled.div`
 `
 
 /**
- * LoadingSpin component is a spinner that is used to indicate the loading process.
+ * 一个加载中的旋转动画
  * @param color - color of the spinner
  * @returns {JSX.Element}
  * @constructor

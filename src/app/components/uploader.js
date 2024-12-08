@@ -1,7 +1,13 @@
 import UploadIcon from '@/app/icons/upload.svg';
-import {useState, useRef} from "react";
+import {useRef, useState} from "react";
 
-// Uploader component
+/**
+ * * UpLoader 组件用于上传文件，支持拖拽上传。
+ * @param accept 文件类型 {string} eg: '.pdf'
+ * @param multiple 是否支持多文件上传 {boolean}
+ * @param onFileChange 文件上传成功后的回调函数 {function}
+ * @returns {JSX.Element}
+ */
 export default function UpLoader({accept, multiple, onFileChange}) {
   const [cursorInside, setCursorInside] = useState(false)
   const inputRef = useRef(null);

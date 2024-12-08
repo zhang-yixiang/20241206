@@ -1,8 +1,9 @@
 import Selecto from "react-selecto";
 
 /**
- *
- * @param props {{indexAttrProp: string, ignoreClass: string, container: HTMLElement, selectableTargets: string[], onChange: function}}
+ * DragSelect 组件是一个拖拽选择组件
+ * @param props {{indexAttrProp: string, ignoreClass: string, container: HTMLElement, selectableTargets: string[],
+ *   onChange: function}}
  * @returns {JSX.Element}
  * @constructor
  */

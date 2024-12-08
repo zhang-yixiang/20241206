@@ -7,16 +7,13 @@ import NavMenuMobile from "@/app/components/nav-bar/nav-menu-mobile";
 
 import styled from "styled-components";
 
-/**
- * a facade component that combines the nav components together for convenience
- */
+
 const OutsideContainer = styled.div`
   display: block;
   width: 100%;
   position: relative;
 `
 
-// styled wrapper for the common navigation bar
 const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -25,7 +22,6 @@ const Wrapper = styled.div`
   margin: 0 auto;
   padding: 10px;
 `
-// styled wrapper for components
 const WrapperComponents = styled.div`
   * {
     display: flex;
@@ -46,10 +42,11 @@ const WrapperMobileMenu = styled.div`
   pointer-events: all;
 `
 
-// show a common navigation bar with logo, menu button, desktop navigation menu and mobile navigation menu
-// logo is always shown on the left, menu button is shown on mobile, desktop navigation menu is shown on desktop
-// and mobile navigation menu is shown on mobile when the menu button state is true
-// meanwhile, the menu button state is managed by this component
+/**
+ * 一个通用的导航栏
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export default function CommonNavBar() {
   const [menuState, setMenuState] = useState(false);
 

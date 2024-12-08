@@ -1,8 +1,7 @@
 import Link from "next/link";
 
 /**
- * accept item from LINKS as props,
- * then take the title as the main title and children as the list of links
+ * 网站导航地图的单列
  */
 export default function SiteMapCol({ item, firstCol }) {
   return (

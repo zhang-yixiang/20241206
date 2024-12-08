@@ -1,6 +1,6 @@
 
 /**
- * download file to local file system
+ * 下载文件
  * @param blob
  * @param filename
  */
@@ -12,7 +12,7 @@ export function downloadToSave(blob, filename) {
 }
 
 /**
- * get array buffer from file
+ * 将文件转换为Uint8Array
  * @param file {file | Blob}
  * @returns {Promise<Uint8Array>}
  */
@@ -26,7 +26,7 @@ export function getFileAsUnit8Array(file) {
 }
 
 /**
- * render page to canvas and return it warped in promise
+ * 将pdf页面渲染到canvas
  * @param page {PDFPageProxy}
  * @param options {Object}
  * @returns {Promise<HTMLCanvasElement>}
@@ -49,7 +49,7 @@ export async function getRenderedCanvas(page, options) {
 }
 
 /**
- * remove file extension from filename
+ * 移除文件扩展名
  * @param filename
  * @returns {string}
  */

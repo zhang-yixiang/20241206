@@ -1,4 +1,4 @@
-// a component get href, social name as props and icon as children
+
 
 export default function SocialTemplate({ socialHref, socialName, children }) {
   return (

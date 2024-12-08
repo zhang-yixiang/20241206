@@ -1,10 +1,10 @@
-import {useState, useRef, useEffect} from "react";
+import {useEffect, useRef, useState} from "react";
 import RotateIcon from '@/app/icons/rotate.svg';
 import PageAndNameWrapper from "@/app/tools/components/page-and-name-wrapper";
 
 /**
- * PageContainer component wraps the page wrapper and the
- * rotate icon in the top right corner of the page.
+ * * PageContainer 组件包装页面包装器和
+ * 页面右上角的旋转图标。
  * @param props {{index: number, canvas: HTMLCanvasElement, name: string, rotation: number, onRotate: function}}
  * @returns {JSX.Element}
  * @constructor

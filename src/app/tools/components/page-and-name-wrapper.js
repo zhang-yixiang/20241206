@@ -1,8 +1,10 @@
-import {useRef, useEffect} from "react";
+import {useEffect, useRef} from "react";
+
 
 /**
- * PageAndNameWrapper component is a wrapper for the canvas element and the name of the page.
- * canvas will append after it's ready
+ * PageAndNameWrapper 组件是 canvas 元素和页面名称的包装器。
+ * canvas 准备好后会被添加到 DOM 中
+ *
  * @param canvas - canvas element with rendered page
  * @param name - page name(number)
  * @returns {JSX.Element}

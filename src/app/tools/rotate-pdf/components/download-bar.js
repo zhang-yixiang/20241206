@@ -23,7 +23,7 @@ const Button = styled.button`
     border: none;`
 
 /**
- *
+ * 上传文件后的下载栏
  * @param onDownload {function}
  * @param disabled {boolean}
  * @returns {JSX.Element}

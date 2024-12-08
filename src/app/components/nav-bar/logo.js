@@ -2,7 +2,7 @@ import Link from "next/link";
 import LogoIcon from "@/app/icons/logo.svg";
 import styled from "styled-components";
 
-// styled wrapper for the logo
+
 const Wrapper = styled.div`
   padding: 10px;
   font-weight: 700;

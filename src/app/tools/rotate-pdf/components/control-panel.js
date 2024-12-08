@@ -25,7 +25,7 @@ const Button = styled.button`
   border: none;
 `
 /**
- *
+ * 上传文件后的控制面板
  * @param onRemove {function}
  * @param onRotateAll {function}
  * @param onZoomIn {function}

@@ -1,5 +1,6 @@
 /**
- * PageTitle Component accepts title and description props
+ * @param title {string}
+ * @param description {string}
  */
 export default function PageTitle({ title, description }) {
   return (

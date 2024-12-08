@@ -2,7 +2,6 @@ import Link from "next/link";
 import {navRoutes} from "@/app/config/nav-routes";
 import styled from "styled-components";
 
-// styled wrapper for desktop navigation menu
 const Wrapper = styled.div`
   justify-content: flex-end;
   a {
@@ -12,7 +11,6 @@ const Wrapper = styled.div`
   }
 `
 
-// show desktop navigation menu based on data from navRoutes
 export default function NavMenuDesktop() {
   return (
     <Wrapper>

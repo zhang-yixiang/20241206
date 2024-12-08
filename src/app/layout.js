@@ -13,7 +13,6 @@ const inter = Inter({
 const tiempos = localFont({
   src: './fonts/tiempos-headline-light.woff2',
   variable: "--font-tiempos",
-  // weight: "400",
 });
 
 export const metadata = {

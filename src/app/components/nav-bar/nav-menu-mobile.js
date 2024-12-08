@@ -2,7 +2,6 @@ import {navRoutes} from "@/app/config/nav-routes";
 import styled from "styled-components";
 import Link from "next/link";
 
-// styled wrapper for mobile navigation menu
 const Wrapper = styled.div`
   display: block;
   padding: 10px;
@@ -13,7 +12,6 @@ const Wrapper = styled.div`
     font-size: 15px;
   }
 `
-// show mobile navigation menu based on data from navRoutes
 export default function NavMenuMobile() {
   return (
     <Wrapper>

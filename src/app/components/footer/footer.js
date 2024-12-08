@@ -1,5 +1,9 @@
 import FooterContent from "@/app/components/footer/footer-content";
 
+/**
+ * 页脚
+ * @returns {JSX.Element}
+ */
 export default function Footer() {
   return (
     <footer className="bg-white" aria-labelledby="footer-heading">
