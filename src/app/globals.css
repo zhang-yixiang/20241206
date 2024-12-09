@@ -60,20 +60,7 @@
   font-weight: 700;
   font-size: 20px;
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
 
-  svg {
-    fill: none;
-    height: 18px;
-    width: auto;
-  }
-
-  path {
-    fill: black;
-  }
 }
 
 .nav-button-wrapper {
@@ -85,32 +72,49 @@
   padding: 10px;
   pointer-events: all;
 
-  svg {
-    display: block;
-    pointer-events: none;
-    width: 20px;
-    height: auto;
-  }
+
+}
+
+.nav-button-wrapper a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-button-wrapper svg {
+  fill: none;
+  height: 18px;
+  width: auto;
+}
+
+.nav-button-wrapper path {
+  fill: black;
+}
+
+.nav-button-wrapper svg {
+  display: block;
+  pointer-events: none;
+  width: 20px;
+  height: auto;
 }
 
 .desktop-menu-wrapper {
   justify-content: flex-end;
+}
 
-  a {
-    padding: 10px;
-    font-weight: 500;
-    font-size: 15px;
-  }
+.desktop-menu-wrapper a {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .mobile-menu-wrapper {
   display: block;
   padding: 10px;
+}
 
-  a {
-    display: block;
-    padding: 10px;
-    font-weight: 500;
-    font-size: 15px;
-  }
+.mobile-menu-wrapper a {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
 }
