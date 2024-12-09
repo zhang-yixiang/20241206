@@ -13,7 +13,7 @@ import LoadingSpin from "@/app/components/loading-spin";
 import PageContainer from "@/app/tools/components/page-container";
 import DownloadBar from "@/app/tools/rotate-pdf/components/download-bar";
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@4.9.155/build/pdf.worker.min.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@3.7.107/build/pdf.worker.js';
 const PAGE_META = TOOLS_META['rotate-pdf']
 const MAX_WIDTH = 500;
 const MIN_WIDTH = 100;
